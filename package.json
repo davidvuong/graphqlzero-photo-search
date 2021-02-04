@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build": "yarn run build:css && craco build",
     "build:css": "tailwind build src/index.css -o src/tailwind.css",
     "test": "craco test",
     "eject": "react-scripts eject"
