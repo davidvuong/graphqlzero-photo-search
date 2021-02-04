@@ -22,3 +22,6 @@ yarn-error.log*
 
 # tailwind
 tailwind.css
+
+# linting
+.eslintcache
